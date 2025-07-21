@@ -8,6 +8,7 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "allowImportingTsExtensions": true,
+    "baseUrl": ".",
     "paths": {
       "@styles": [
         "src/styles/*"
