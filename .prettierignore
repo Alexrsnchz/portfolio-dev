@@ -1,0 +1,12 @@
+# Modules & Extras #
+node_modules
+.idea
+
+# Config Files #
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Other Folders
+public
+build
