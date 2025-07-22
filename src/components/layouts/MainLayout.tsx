@@ -1,4 +1,4 @@
-import type { LayoutProps } from '@customTypes/layout.types.ts';
+import type { LayoutProps } from '@customTypes/layout.types';
 
 export default function MainLayout({ children }: LayoutProps) {
   return (

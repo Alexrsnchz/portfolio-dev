@@ -1,7 +1,12 @@
-import MainLayout from './components/layouts/MainLayout.tsx';
+import MainLayout from '@components/layouts/MainLayout';
 
 function App() {
-  return <MainLayout></MainLayout>;
+  return (
+    <MainLayout>
+      <h1>Title placeholder</h1>
+      <p>Text placeholder temporal</p>
+    </MainLayout>
+  );
 }
 
 export default App;
