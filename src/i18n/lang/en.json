@@ -1,5 +1,15 @@
 {
-  "GitHubAria": "Go to my GitHub profile",
-  "LinkedInAria": "Go to my LinkedIn profile",
-  "EmailAria": "Send me an email"
+  "heroSubtitle": "Hi, I'm Alex",
+  "heroTitle": "Full Stack Web Developer",
+  "heroIntroduction": "I create functional web applications focused in performance, aesthetics, and efficiency, keeping the code clean and easy to maintain.",
+
+  "gitHubAria": "Go to my GitHub profile",
+  "linkedInAria": "Go to my LinkedIn profile",
+  "emailAria": "Send me an email",
+
+  "heroCvUrl": "/documents/CV_EN_Alejandro_Ramos_Sanchez.pdf",
+  "heroCvButtonAria": "View my resume",
+  "heroCvButton": "My Resume",
+  "heroProjectsButtonAria": "View my projects",
+  "heroProjectsButton": "View Projects"
 }

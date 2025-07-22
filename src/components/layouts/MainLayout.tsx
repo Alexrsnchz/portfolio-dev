@@ -5,7 +5,7 @@ export default function MainLayout({ children }: LayoutProps) {
   return (
     <div className="bg-gray-50 dark:bg-neutral-950">
       <header></header>
-      <main className="mx-auto max-w-6xl">{children}</main>
+      <main className="mx-auto max-w-5xl">{children}</main>
       <Footer />
     </div>
   );
