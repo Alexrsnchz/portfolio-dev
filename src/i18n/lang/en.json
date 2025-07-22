@@ -11,5 +11,32 @@
   "heroCvButtonAria": "View my resume",
   "heroCvButton": "My Resume",
   "heroProjectsButtonAria": "View my projects",
-  "heroProjectsButton": "View Projects"
+  "heroProjectsButton": "View Projects",
+
+  "experience": {
+    "header": "Experience",
+    "list": [
+      {
+        "startDate": "05/14/2025",
+        "endDate": "Present",
+        "position": "Full Stack Developer",
+        "company": "Magical Analytics",
+        "tasks": [
+          "I collaborate in the development of an application for team vacation management, using React for the user interface.",
+          "I modify and customize emails, forms, and landing pages using HTML, CSS, and HubSpot's CRM editor.",
+          "I developed a REST API using Spring Boot to automate data transfer between HubSpot and an internal application."
+        ]
+      },
+      {
+        "startDate": "03/12/2024",
+        "endDate": "06/18/2024",
+        "position": "Full Stack Developer",
+        "company": "Ruano Informática",
+        "tasks": [
+          "I developed the frontend and backend of an internal web application for managing courses, users, and training diplomas, as well as issuing them.",
+          "I implemented automated tests for HTTP requests, reducing the possibility of errors and improving code stability."
+        ]
+      }
+    ]
+  }
 }
