@@ -10,19 +10,19 @@
     "allowImportingTsExtensions": true,
     "baseUrl": ".",
     "paths": {
-      "@styles": [
+      "@styles/*": [
         "src/styles/*"
       ],
-      "@customTypes": [
+      "@customTypes/*": [
         "src/types/*"
       ],
-      "@data": [
+      "@data/*": [
         "src/assets/data/*"
       ],
-      "@icons": [
+      "@icons/*": [
         "src/assets/icons/*"
       ],
-      "@components": [
+      "@components/*": [
         "src/components"
       ],
     }
