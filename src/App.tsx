@@ -1,5 +1,7 @@
+import MainLayout from './components/layouts/MainLayout.tsx';
+
 function App() {
-  return <></>;
+  return <MainLayout></MainLayout>;
 }
 
 export default App;
