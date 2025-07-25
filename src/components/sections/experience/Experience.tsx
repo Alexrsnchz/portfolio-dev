@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import SectionLayout from '@components/layouts/SectionLayout';
 import { CaseIcon } from '@icons/Icons';
 import type { ExperienceProps } from '@customTypes/experience.types';
-import TimelineEntry from '@components/sections/experience/TimelineEntry';
+import ExperienceEntry from '@components/sections/experience/ExperienceEntry';
 
 export default function Experience() {
   const { t } = useTranslation();
@@ -11,7 +11,7 @@ export default function Experience() {
   return (
     <SectionLayout id="experience" icon={CaseIcon} title={t('experience.header')}>
       {experience.map((exp, index) => (
-        <TimelineEntry
+        <ExperienceEntry
           key={index}
           startDate={exp.startDate}
           endDate={exp.endDate}

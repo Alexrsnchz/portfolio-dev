@@ -1,7 +1,7 @@
 import type { ExperienceProps } from '@customTypes/experience.types';
 import { BuildingIcon, CalendarIcon } from '@icons/Icons';
 
-export default function TimelineEntry({
+export default function ExperienceEntry({
   startDate,
   endDate,
   position,
@@ -34,8 +34,10 @@ export default function TimelineEntry({
         </div>
 
         <div className="space-y-5">
-          {tasks.map((task) => (
-            <p className="max-w-xl text-gray-600 dark:text-gray-300">• {task}</p>
+          {tasks.map((task, index) => (
+            <p key={index} className="max-w-xl text-gray-600 dark:text-gray-300">
+              • {task}
+            </p>
           ))}
         </div>
       </div>
