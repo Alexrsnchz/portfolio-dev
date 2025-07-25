@@ -40,48 +40,23 @@
 
   "projects": {
     "header": "Proyectos",
-    "list": [
-      {
-        "thumbnail": "/images/toolsyde_thumbnail.webp",
-        "title": "Toolbox para desarrolladores",
-        "description": "Aplicación estilo toolbox basa en microservicios con variedad de utilidades para desarrolladores.",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Tailwind CSS",
-          "Java",
-          "Spring Boot",
-          "PostgreSQL",
-          "Cypress",
-          "JUnit"
-        ],
-        "sourceCode": "https://github.com/Alexrsnchz/toolsyde-web",
-        "preview": "https://toolsyde-web.vercel.app/",
-        "sourceAria": "Ir al código del proyecto en GitHub",
-        "sourceButton": "Código Fuente",
-        "previewAria": "Ir a la vista previa del proyecto",
-        "previewButton": "Vista Previa"
-      },
-      {
-        "thumbnail": "/images/mobelia_thumbnail.webp",
-        "title": "E-commerce de venta de muebles",
-        "description": "Comercio moderno de venta de muebles con diseño responsivo, carrito de compra, pagos seguros y autenticación con sociales.",
-        "stack": [
-          "JavaScript",
-          "React",
-          "Tailwind CSS",
-          "Java",
-          "Spring Boot",
-          "PostgreSQL",
-          "Auth0"
-        ],
-        "source": "https://github.com/Alexrsnchz/mobelia-web",
-        "preview": "https://mobelia-web.vercel.app/",
-        "sourceAria": "Ir al código del proyecto en GitHub",
-        "sourceButton": "Código Fuente",
-        "previewAria": "Ir a la vista previa del proyecto",
-        "previewButton": "Vista Previa"
-      }
-    ]
+    "toolsydeTitle": "Toolbox para desarrolladores",
+    "toolsydeDescription": "Aplicación estilo toolbox basa en microservicios con variedad de utilidades para desarrolladores.",
+    "mobeliaTitle": "E-commerce de venta de muebles",
+    "mobeliaDescription": "Comercio moderno de venta de muebles con diseño responsivo, carrito de compra, pagos seguros y autenticación con sociales.",
+    "sourceButtonAria": "Ir al código del proyecto en GitHub",
+    "sourceButtonText": "Código Fuente",
+    "previewButtonAria": "Ir a la vista previa del proyecto",
+    "previewButtonText": "Vista Previa"
+  },
+
+  "stack": {
+    "header": "Habilidades",
+    "frontend": "Desarrollo Frontend",
+    "backend": "Desarrollo Backend",
+    "database": "Gestión Base de Datos",
+    "cloud": "Cloud y DevOps",
+    "security": "Seguridad y Testeo",
+    "devTools": "Herramientas"
   }
 }

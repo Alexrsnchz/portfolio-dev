@@ -42,48 +42,23 @@
 
   "projects": {
     "header": "Projects",
-    "list": [
-      {
-        "thumbnail": "/images/toolsyde_thumbnail.webp",
-        "title": "Toolbox for developers",
-        "description": "Toolbox style application based on microservices with a variety of utilities for developers.",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Tailwind CSS",
-          "Java",
-          "Spring Boot",
-          "PostgreSQL",
-          "Cypress",
-          "JUnit"
-        ],
-        "sourceCode": "https://github.com/Alexrsnchz/toolsyde-web",
-        "preview": "https://toolsyde-web.vercel.app/",
-        "sourceAria": "Go to the project's code in GitHub",
-        "sourceButton": "Source Code",
-        "previewAria": "Go to the project's preview",
-        "previewButton": "Preview"
-      },
-      {
-        "thumbnail": "/images/mobelia_thumbnail.webp",
-        "title": "Furniture E-commerce",
-        "description": "Modern furniture e-commerce with responsive design, shopping cart, secure payments, and social authentication.",
-        "stack": [
-          "JavaScript",
-          "React",
-          "Tailwind CSS",
-          "Java",
-          "Spring Boot",
-          "PostgreSQL",
-          "Auth0"
-        ],
-        "source": "https://github.com/Alexrsnchz/mobelia-web",
-        "preview": "https://mobelia-web.vercel.app/",
-        "sourceAria": "Go to the project's code in GitHub",
-        "sourceButton": "Source Code",
-        "previewAria": "Go to the project's preview",
-        "previewButton": "Preview"
-      }
-    ]
+    "toolsydeTitle": "Toolbox for developers",
+    "toolsydeDescription": "Toolbox style application based on microservices with a variety of utilities for developers.",
+    "mobeliaTitle": "Furniture E-commerce",
+    "mobeliaDescription": "Modern furniture e-commerce with responsive design, shopping cart, secure payments, and social authentication.",
+    "sourceButtonAria": "Go to the project's code in GitHub",
+    "sourceButtonText": "Source Code",
+    "previewButtonAria": "Go to the project's preview",
+    "previewButtonText": "Preview"
+  },
+
+  "stack": {
+    "header": "Tech Stack",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "database": "Database Management",
+    "cloud": "Cloud & DevOps",
+    "security": "Security & Testing",
+    "devTools": "Development Tools"
   }
 }

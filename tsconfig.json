@@ -22,6 +22,9 @@
       "@icons/*": [
         "src/assets/icons/*"
       ],
+      "@logos/*": [
+        "src/assets/logos/*"
+      ],
       "@components/*": [
         "src/components/*"
       ]

@@ -2,11 +2,10 @@ import SectionLayout from '@components/layouts/SectionLayout';
 import { LayoutIcon } from '@icons/Icons';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from '@components/sections/projects/ProjectCard';
-import type { ProjectProps } from '@customTypes/projects.types';
+import { projects } from '@data/projectsData';
 
 export default function Projects() {
   const { t } = useTranslation();
-  const projects = t('projects.list', { returnObjects: true }) as ProjectProps[];
 
   return (
     <SectionLayout id="projects" icon={LayoutIcon} title={t('projects.header')}>
@@ -19,11 +18,7 @@ export default function Projects() {
             description={prj.description}
             stack={prj.stack}
             source={prj.source}
-            sourceAria={prj.sourceAria}
-            sourceButton={prj.sourceButton}
             preview={prj.preview}
-            previewAria={prj.previewAria}
-            previewButton={prj.previewButton}
             reverse={index % 2 !== 0}
           />
         ))}
