@@ -58,7 +58,11 @@
           "JUnit"
         ],
         "sourceCode": "https://github.com/Alexrsnchz/toolsyde-web",
-        "preview": "https://toolsyde-web.vercel.app/"
+        "preview": "https://toolsyde-web.vercel.app/",
+        "sourceAria": "Go to the project's code in GitHub",
+        "sourceButton": "Source Code",
+        "previewAria": "Go to the project's preview",
+        "previewButton": "Preview"
       },
       {
         "thumbnail": "/images/mobelia_thumbnail.webp",
@@ -74,11 +78,12 @@
           "Auth0"
         ],
         "source": "https://github.com/Alexrsnchz/mobelia-web",
-        "preview": "https://mobelia-web.vercel.app/"      }
-    ],
-    "sourceAria": "Go to the project's code in GitHub",
-    "sourceButton": "Source Code",
-    "previewAria": "Go to the project's preview",
-    "previewButton": "Preview"
+        "preview": "https://mobelia-web.vercel.app/",
+        "sourceAria": "Go to the project's code in GitHub",
+        "sourceButton": "Source Code",
+        "previewAria": "Go to the project's preview",
+        "previewButton": "Preview"
+      }
+    ]
   }
 }
