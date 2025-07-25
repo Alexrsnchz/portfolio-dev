@@ -1,12 +1,13 @@
 import type { LayoutProps } from '@customTypes/general.types';
 import Footer from '@components/navigation/footer/Footer';
+import Background from '@components/misc/Background';
 
 export default function MainLayout({ children }: LayoutProps) {
   return (
-    <div className="bg-gray-50 dark:bg-neutral-950">
+    <Background>
       <header></header>
-      <main className="px-3 md:px-0 mx-auto max-w-5xl">{children}</main>
+      <main className="px-3 md:px-12 lg:px-0 mx-auto md:max-w-4xl lg:max-w-5xl">{children}</main>
       <Footer />
-    </div>
+    </Background>
   );
 }
