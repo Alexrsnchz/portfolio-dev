@@ -1,6 +1,6 @@
-import type { LayoutProps } from '@customTypes/general.types';
+import type { ExtendedLayoutProps } from '@customTypes/general.types';
 
-export default function SectionLayout({ id, icon: Icon, title, children }: LayoutProps) {
+export default function SectionLayout({ id, icon: Icon, title, children }: ExtendedLayoutProps) {
   return (
     <section id={id} className="pt-25 pb-10 md:pb-20">
       <div className="flex items-center gap-3">

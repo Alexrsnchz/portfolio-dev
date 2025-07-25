@@ -5,8 +5,11 @@ export interface IconProps {
 }
 
 export interface LayoutProps {
-  id?: string;
-  icon?: React.ComponentType<IconProps>;
-  title?: string;
   children?: React.ReactNode;
+}
+
+export interface ExtendedLayoutProps extends LayoutProps {
+  id: string;
+  icon: React.ComponentType<IconProps>;
+  title: string;
 }
