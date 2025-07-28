@@ -58,5 +58,28 @@
     "cloud": "Cloud y DevOps",
     "security": "Seguridad y Testeo",
     "devTools": "Herramientas"
+  },
+
+  "contact": {
+    "subtitle": "¿Te gusta lo que ves?",
+    "title": "Contacta conmigo",
+    "text": "Ponte en contacto conmigo a través de de mi dirección de email o mándame un mensaje vía la red social de LinkedIn.",
+    "copyButton": "¡Copiado!",
+
+    "locationTitle": "Ubicación",
+    "locationCountry": "España",
+    "locationText": "Disponible para trabajo remoto o reubicación.",
+
+    "availabilityTitle": "Disponibilidad",
+    "availabilityHours": "Disponible",
+    "availabilityText": "Respondo mensajes en 24 - 48 horas.",
+
+    "formTitle": "Envíame un correo",
+    "formSubject": "Asunto",
+    "formBody": "Mensaje",
+    "formBodyPlaceholder": "Escribe aquí tu mensaje...",
+    "formButton": "Enviar correo",
+    "formSuccessMessage": "Mensaje enviado con éxito.",
+    "formErrorMessage": "Ha habido un error al enviar el mensaje."
   }
 }

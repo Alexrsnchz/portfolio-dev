@@ -60,5 +60,28 @@
     "cloud": "Cloud & DevOps",
     "security": "Security & Testing",
     "devTools": "Development Tools"
+  },
+
+  "contact": {
+    "subtitle": "Like what you see?",
+    "title": "Get in touch",
+    "text": "Contact me through my email address or send me a message through LikedIn social media.",
+    "copyButton": "Copied!",
+
+    "locationTitle": "Location",
+    "locationCountry": "Spain",
+    "locationText": "Available for remote work or relocation.",
+
+    "availabilityTitle": "Availability",
+    "availabilityHours": "Available",
+    "availabilityText": "I reply to messages in 24 - 48 hours.",
+
+    "formTitle": "Send me a message",
+    "formSubject": "Subject",
+    "formBody": "Message",
+    "formBodyPlaceholder": "Write here your message...",
+    "formButton": "Send email",
+    "formSuccessMessage": "Message sent successfully.",
+    "formErrorMessage": "There has been an error sending the message."
   }
 }
