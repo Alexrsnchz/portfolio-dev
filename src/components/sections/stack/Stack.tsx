@@ -9,7 +9,7 @@ export default function Stack() {
 
   return (
     <SectionLayout id="stack" icon={LayerIcon} title={t('stack.header')}>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {stack.map((stk, index) => (
           <StackCard key={index} icon={stk.icon} title={stk.title} tech={stk.tech} />
         ))}

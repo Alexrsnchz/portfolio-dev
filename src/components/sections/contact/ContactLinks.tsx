@@ -30,7 +30,7 @@ export default function ContactLinks() {
         >
           <div className="flex items-center gap-4">
             <div className="p-2 rounded-lg bg-sky-500/10 dark:bg-purple-500/10">
-              <Icon className="w-5 h-5 text-sky-300 dark:text-purple-400" />
+              <Icon className="size-5 text-sky-300 dark:text-purple-400" />
             </div>
 
             <div>
@@ -45,7 +45,7 @@ export default function ContactLinks() {
             onClick={() => handleCopy(url, index)}
             className={`relative group ${copiedIndex === index ? 'copied' : ''}`}
           >
-            <CopyIcon className="w-5 h-5 cursor-pointer text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400 transition-colors duration-200 ease-in-out" />
+            <CopyIcon className="size-5 cursor-pointer text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400 transition-colors duration-200 ease-in-out" />
             <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-xs px-2 py-1 rounded bg-neutral-800 text-white opacity-0 group-[.copied]:opacity-100 transition-opacity duration-300 pointer-events-none">
               {t('contact.copyButton')}
             </span>

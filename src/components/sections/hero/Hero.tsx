@@ -10,15 +10,15 @@ export default function Hero() {
       <div className="flex flex-col justify-center min-h-screen">
         <div className="mb-14 text-center md:text-start">
           <span className="text-3xl md:text-5xl font-semibold text-gray-700 dark:text-gray-200">
-            {t('heroSubtitle')}
+            {t('hero.subtitle')}
           </span>
 
           <h1 className="mt-3 mb-8 text-4xl md:text-5xl font-bold bg-gradient-to-r from-sky-300 dark:from-purple-500 via-rose-300 dark:via-pink-500 to-amber-400 dark:to-pink-500 bg-clip-text text-transparent">
-            {t('heroTitle')}
+            {t('hero.title')}
           </h1>
 
           <p className="max-w-xl text-md md:text-xl text-gray-600 dark:text-gray-300">
-            {t('heroIntroduction')}
+            {t('hero.introduction')}
           </p>
         </div>
 

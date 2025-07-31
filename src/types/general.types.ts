@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 export interface IconProps {
+  id?: string;
   className?: string;
 }
 

@@ -25,6 +25,9 @@
       "@logos/*": [
         "src/assets/logos/*"
       ],
+      "@flags/*": [
+        "src/assets/flags/*"
+      ],
       "@components/*": [
         "src/components/*"
       ]

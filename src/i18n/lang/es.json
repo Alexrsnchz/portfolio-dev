@@ -1,15 +1,31 @@
 {
-  "heroSubtitle": "Hola, soy Alex",
-  "heroTitle": "Desarrollador Web Full Stack",
-  "heroIntroduction": "Creo aplicaciones web funcionales enfocadas en el rendimiento, la estética y la eficiencia, manteniendo un código limpio y fácil de mantener.",
+  "navbar": {
+    "brandAria": "Ir a la sección principal",
+    "experienceLink": "Experiencia",
+    "experienceAria": "Ir a la sección de experiencia",
+    "projectsLink": "Proyectos",
+    "projectsAria": "Ir a la sección de proyectos",
+    "stackLink": "Habilidades",
+    "stackAria": "Ir a la sección de habilidades",
+    "contactLink": "Contacto",
+    "contactAria": "Ir a la sección de contacto",
+
+    "langItemAria": "Cambiar idioma al "
+  },
+
   "gitHubAria": "Ir a mi perfil de GitHub",
   "linkedInAria": "Ir a mi perfil de LinkedIn",
   "emailAria": "Enviarme un correo",
-  "heroCvUrl": "/documents/CV_ES_Alejandro_Ramos_Sanchez.pdf",
-  "heroCvButtonAria": "Ver mi currículum",
-  "heroCvButton": "Mi Currículum",
-  "heroProjectsButtonAria": "Ver mis proyectos",
-  "heroProjectsButton": "Ver Proyectos",
+
+  "hero": {
+    "subtitle": "Hola, soy Alex",
+    "title": "Desarrollador Web Full Stack",
+    "introduction": "Creo aplicaciones web funcionales enfocadas en el rendimiento, la estética y la eficiencia, manteniendo un código limpio y fácil de mantener.",
+    "cvButtonAria": "Ver mi currículum",
+    "cvButton": "Mi Currículum",
+    "projectsButtonAria": "Ver mis proyectos",
+    "projectsButton": "Ver Proyectos"
+  },
 
   "experience": {
     "header": "Experiencia",

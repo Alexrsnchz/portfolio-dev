@@ -1,17 +1,31 @@
 {
-  "heroSubtitle": "Hi, I'm Alex",
-  "heroTitle": "Full Stack Web Developer",
-  "heroIntroduction": "I create functional web applications focused in performance, aesthetics, and efficiency, keeping the code clean and easy to maintain.",
+  "navbar": {
+    "brandAria": "Go to the home section",
+    "experienceLink": "Experience",
+    "experienceAria": "Go to the experiencie section",
+    "projectsLink": "Projects",
+    "projectsAria": "Go to the projects section",
+    "stackLink": "Stack",
+    "stackAria": "Go to the stack section",
+    "contactLink": "Contact",
+    "contactAria": "Go to the contact section",
+
+    "langItemAria": "Change language to "
+  },
 
   "gitHubAria": "Go to my GitHub profile",
   "linkedInAria": "Go to my LinkedIn profile",
   "emailAria": "Send me an email",
 
-  "heroCvUrl": "/documents/CV_EN_Alejandro_Ramos_Sanchez.pdf",
-  "heroCvButtonAria": "View my resume",
-  "heroCvButton": "My Resume",
-  "heroProjectsButtonAria": "View my projects",
-  "heroProjectsButton": "View Projects",
+  "hero": {
+    "subtitle": "Hi, I'm Alex",
+    "title": "Full Stack Web Developer",
+    "introduction": "I create functional web applications focused in performance, aesthetics, and efficiency, keeping the code clean and easy to maintain.",
+    "cvButtonAria": "View my resume",
+    "cvButton": "My Resume",
+    "projectsButtonAria": "View my projects",
+    "projectsButton": "View Projects"
+  },
 
   "experience": {
     "header": "Experience",
