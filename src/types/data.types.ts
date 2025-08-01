@@ -12,3 +12,9 @@ export interface NavLinksProps {
   aria: string;
   text: string;
 }
+
+export interface TechProps {
+  logo: React.ComponentType<IconProps>;
+  text: string;
+  colors: string;
+}

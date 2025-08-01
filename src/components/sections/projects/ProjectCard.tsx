@@ -36,7 +36,7 @@ export default function ProjectCard({
           {stack.map((item, index) => (
             <span
               key={index}
-              className="px-2.5 py-1 rounded-full bg-sky-300/10 dark:bg-purple-600/20 font-medium text-xs text-sky-300 dark:text-purple-400"
+              className="px-2.5 py-1 rounded-full bg-sky-300/20 dark:bg-purple-600/20 font-medium text-xs text-sky-300 dark:text-purple-400"
             >
               {item}
             </span>

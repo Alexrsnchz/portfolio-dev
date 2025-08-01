@@ -1,5 +1,6 @@
 import type { StackProps } from '@customTypes/stack.types';
 import { useTranslation } from 'react-i18next';
+import { TechProps } from '@customTypes/data.types';
 
 export default function StackCard({ title, icon: Icon, tech }: StackProps) {
   const { t } = useTranslation();
@@ -17,13 +18,13 @@ export default function StackCard({ title, icon: Icon, tech }: StackProps) {
       </div>
 
       <div className="grid grid-cols-2 gap-3">
-        {tech.map(({ name, logo: Logo }, index) => (
+        {tech.map(({ name, logo: Logo, colors }: TechProps, index) => (
           <div
             key={index}
             className="flex flex-col items-center py-3 gap-2 w-full rounded-lg bg-gray-300/50 dark:bg-neutral-800/30"
           >
             <div className="p-2 rounded-lg bg-white dark:bg-neutral-700/20">
-              <Logo className="size-8" />
+              <Logo className={`size-8 ${colors}`} />
             </div>
 
             <span className="text-sm font-medium text-gray-600 dark:text-neutral-400">{name}</span>

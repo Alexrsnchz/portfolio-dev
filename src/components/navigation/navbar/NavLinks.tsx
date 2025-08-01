@@ -12,7 +12,7 @@ export default function NavLinks() {
           <a
             href={lnk.url}
             aria-label={t(lnk.aria)}
-            className="text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-sky-300 dark:hover:text-purple-400 transition-color duration-200 ease-in-out"
+            className="text-sm font-medium text-gray-600 dark:text-gray-200 hover:text-sky-300 dark:hover:text-purple-400 transition-color duration-200 ease-in-out"
           >
             {t(lnk.text)}
           </a>

@@ -37,8 +37,8 @@ export default function LanguageSwitch() {
   return (
     <div ref={wrapperRef} className="relative">
       <button onClick={openMenu} className="flex items-center gap-1 cursor-pointer">
-        <TranslatorIcon className="size-4 md:size-5 text-gray-800 dark:text-gray-200" />
-        <span className="text-xs md:text-sm font-medium text-gray-800 dark:text-gray-200 uppercase">
+        <TranslatorIcon className="size-4 md:size-5 text-gray-600 dark:text-gray-200" />
+        <span className="text-xs md:text-sm font-medium text-gray-600 dark:text-gray-200 uppercase">
           {currentLang}
         </span>
         <ChevronDownIcon
@@ -57,7 +57,7 @@ export default function LanguageSwitch() {
                   className="flex items-center px-3 py-2 gap-2"
                 >
                   <Flag className="size-5 md:size-6" />
-                  <span className="text-sm md:text-md font-medium text-gray-800 dark:text-gray-200">
+                  <span className="text-sm md:text-md font-medium text-gray-600 dark:text-gray-200">
                     {text}
                   </span>
                 </button>

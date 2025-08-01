@@ -72,6 +72,7 @@ export const stack = [
       {
         name: 'PHP',
         logo: PhpLogo,
+        colors: 'text-black dark:text-white',
       },
       {
         name: 'Laravel',
@@ -84,6 +85,7 @@ export const stack = [
       {
         name: 'Express.js',
         logo: ExpressLogo,
+        colors: 'text-black dark:text-white',
       },
       {
         name: 'Java',
@@ -110,6 +112,7 @@ export const stack = [
       {
         name: 'Prisma',
         logo: PrismaLogo,
+        colors: 'text-black dark:text-white',
       },
     ],
   },
@@ -120,10 +123,12 @@ export const stack = [
       {
         name: 'Vercel',
         logo: VercelLogo,
+        colors: 'text-black dark:text-white',
       },
       {
         name: 'Railway',
         logo: RailwayLogo,
+        colors: 'text-black dark:text-white',
       },
     ],
   },
@@ -142,6 +147,7 @@ export const stack = [
       {
         name: 'Cypress',
         logo: CypressLogo,
+        colors: 'text-black dark:text-white',
       },
       {
         name: 'JUnit',
@@ -160,6 +166,7 @@ export const stack = [
       {
         name: 'GitHub',
         logo: GithubLogo,
+        colors: 'text-black dark:text-white',
       },
       {
         name: 'Postman',
