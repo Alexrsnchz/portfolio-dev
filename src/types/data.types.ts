@@ -15,6 +15,6 @@ export interface NavLinksProps {
 
 export interface TechProps {
   logo: React.ComponentType<IconProps>;
-  text: string;
-  colors: string;
+  name: string;
+  colors?: string;
 }
