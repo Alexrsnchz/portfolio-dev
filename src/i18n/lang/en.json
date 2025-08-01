@@ -10,6 +10,8 @@
     "contactLink": "Contact",
     "contactAria": "Go to the contact section",
 
+    "themButtonAria": "Switch theme",
+
     "langItemAria": "Change language to "
   },
 

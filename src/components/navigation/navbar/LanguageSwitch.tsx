@@ -8,7 +8,7 @@ import { LangListProps } from '@customTypes/data.types';
 export default function LanguageSwitch() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const currentLang = i18next.language.toUpperCase();
+  const currentLang = i18next.language.toUpperCase().slice(0, 2);
   const { t } = useTranslation();
 
   const openMenu = () => {

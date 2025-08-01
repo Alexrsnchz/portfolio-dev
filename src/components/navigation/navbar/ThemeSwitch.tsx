@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { MoonIcon, SunIcon } from '@icons/Icons';
+import { useTranslation } from 'react-i18next';
 
 export default function ThemeSwitch() {
   const [isDark, setIsDark] = useState<boolean>(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (isDark) {
@@ -19,7 +21,11 @@ export default function ThemeSwitch() {
   };
 
   return (
-    <button onClick={toggleTheme} className="relative size-4 md:size-5 cursor-pointer">
+    <button
+      onClick={toggleTheme}
+      aria-label={t('themeButtonAria')}
+      className="relative size-4 md:size-5 cursor-pointer"
+    >
       <SunIcon
         className={`absolute inset-0 size-4 md:size-5 ${isDark ? 'opacity-0' : 'opacity-100'} text-yellow-500 transition-opacity duration-400`}
       />
