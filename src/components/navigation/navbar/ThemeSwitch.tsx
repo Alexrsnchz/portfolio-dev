@@ -3,17 +3,21 @@ import { MoonIcon, SunIcon } from '@icons/Icons';
 import { useTranslation } from 'react-i18next';
 
 export default function ThemeSwitch() {
-  const [isDark, setIsDark] = useState<boolean>(false);
+  const [isDark, setIsDark] = useState<boolean>(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme === 'dark';
+  });
+
   const { t } = useTranslation();
 
   useEffect(() => {
     if (isDark) {
       document.body.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
     } else {
       document.body.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
     }
-
-    localStorage.setItem('theme', 'dark');
   }, [isDark]);
 
   const toggleTheme = () => {
