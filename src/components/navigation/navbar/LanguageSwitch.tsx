@@ -42,7 +42,7 @@ export default function LanguageSwitch() {
           {currentLang}
         </span>
         <ChevronDownIcon
-          className={`mt-0.75 size-4 ${isOpen ? 'rotate-180' : ''} text-gray-800 dark:text-gray-200 transition-transform duration-200 ease-in-out`}
+          className={`md:mt-0.75 size-4 ${isOpen ? 'rotate-180' : ''} text-gray-800 dark:text-gray-200 transition-transform duration-200 ease-in-out`}
         />
       </button>
 
