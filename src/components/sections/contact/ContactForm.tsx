@@ -91,7 +91,7 @@ export default function ContactForm() {
 
           <button
             type="submit"
-            className="flex justify-center items-center px-5 py-2.5 mb-1 gap-3 w-full rounded-md cursor-pointer group border border-gray-400 dark:border-neutral-700 hover:border-amber-400 dark:hover:border-purple-500 hover:bg-amber-400/10 dark:hover:bg-purple-500/10 transition-color duration-200 ease-in-out"
+            className="flex justify-center items-center px-5 py-2.5 mb-1 gap-3 w-full rounded-md cursor-pointer group border border-gray-500 dark:border-neutral-700 hover:border-amber-400 dark:hover:border-purple-500 hover:bg-amber-400/10 dark:hover:bg-purple-500/10 transition-color duration-200 ease-in-out"
           >
             <PaperPlaneIcon className="size-4.5 text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400" />
             <span className="font-medium text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400">

@@ -49,7 +49,7 @@ export default function ProjectCard({
             aria-label={t('projects.sourceButtonAria')}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center px-5 py-2.5 gap-2 rounded-md group border border-gray-600 dark:border-neutral-700 hover:border-amber-400 dark:hover:border-purple-500 hover:bg-amber-400/10 dark:hover:bg-purple-500/10 transition-color duration-200 ease-in-out"
+            className="flex items-center px-5 py-2.5 gap-2 rounded-md group border border-gray-500 dark:border-neutral-700 hover:border-amber-400 dark:hover:border-purple-500 hover:bg-amber-400/10 dark:hover:bg-purple-500/10 transition-color duration-200 ease-in-out"
           >
             <GitHubIcon className="size-4 text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400" />
             <span className="text-sm font-medium text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400">
@@ -62,7 +62,7 @@ export default function ProjectCard({
             aria-label={t('projects.previewButtonAria')}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center px-5 py-2.5 gap-2 rounded-md group border border-gray-600 dark:border-neutral-700 hover:border-amber-400 dark:hover:border-purple-500 hover:bg-amber-400/10 dark:hover:bg-purple-500/10 transition-color duration-200 ease-in-out"
+            className="flex items-center px-5 py-2.5 gap-2 rounded-md group border border-gray-500 dark:border-neutral-700 hover:border-amber-400 dark:hover:border-purple-500 hover:bg-amber-400/10 dark:hover:bg-purple-500/10 transition-color duration-200 ease-in-out"
           >
             <ExternalLinkIcon className="size-4 text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400" />
             <span className="text-sm font-medium text-gray-600 dark:text-gray-200 group-hover:text-amber-400 dark:group-hover:text-purple-400">
