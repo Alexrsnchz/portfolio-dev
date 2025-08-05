@@ -19,10 +19,10 @@ export default function ContactForm() {
         import.meta.env.VITE_MAILER_PUBLIC_KEY,
       );
 
-      alert(t('formSuccessMessage'));
+      alert(t('contact.formSuccessMessage'));
       form.reset();
     } catch (error) {
-      alert('formErrorMessage');
+      alert('contact.formErrorMessage');
     }
   };
 
@@ -35,7 +35,7 @@ export default function ContactForm() {
           </span>
         </div>
 
-        <form id="contact-form" onSubmit={handleSubmit} className="space-y-5 mt-8" noValidate>
+        <form id="contact-form" onSubmit={handleSubmit} className="space-y-5 mt-8">
           <div className="flex items-center gap-5">
             <div className="flex flex-col gap-3 flex-1">
               <label
