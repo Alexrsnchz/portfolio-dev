@@ -30,7 +30,7 @@ export default function Navbar() {
         <a
           href="#home"
           aria-label={t('navbar.brandAria')}
-          className="text-md md:text-lg leading-none font-semibold bg-gradient-to-r from-sky-300 dark:from-purple-500 via-rose-300 dark:via-pink-500 to-amber-400 dark:to-pink-500 bg-clip-text text-transparent"
+          className="text-lg leading-none font-semibold bg-gradient-to-r from-sky-300 dark:from-purple-500 via-rose-300 dark:via-pink-500 to-amber-400 dark:to-pink-500 bg-clip-text text-transparent"
         >
           {'<Alexrsnchz />'}
         </a>

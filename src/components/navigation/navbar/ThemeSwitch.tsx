@@ -24,13 +24,13 @@ export default function ThemeSwitch() {
     <button
       onClick={toggleTheme}
       aria-label={t('themeButtonAria')}
-      className="relative size-4 md:size-5 cursor-pointer"
+      className="relative size-5 cursor-pointer"
     >
       <SunIcon
-        className={`absolute inset-0 size-4 md:size-5 ${isDark ? 'opacity-0' : 'opacity-100'} text-yellow-500 transition-opacity duration-400`}
+        className={`absolute inset-0 size-5 ${isDark ? 'opacity-0' : 'opacity-100'} text-yellow-500 transition-opacity duration-400`}
       />
       <MoonIcon
-        className={`absolute inset-0 size-4 md:size-5 ${isDark ? 'opacity-100' : 'opacity-0'} text-purple-400 transition-opacity duration-400`}
+        className={`absolute inset-0 size-5 ${isDark ? 'opacity-100' : 'opacity-0'} text-purple-400 transition-opacity duration-400`}
       />
     </button>
   );
