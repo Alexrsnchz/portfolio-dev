@@ -34,12 +34,12 @@
     "list": [
       {
         "startDate": "05/14/2025",
-        "endDate": "Present",
+        "endDate": "08/06/2025",
         "position": "Full Stack Developer",
         "company": "Magical Analytics",
         "tasks": [
-          "I collaborate in the development of an application for team vacation management, using React for the user interface.",
-          "I modify and customize emails, forms, and landing pages using HTML, CSS, and HubSpot's CRM editor.",
+          "I collaborated in the development of an application for team vacation management, using React for the user interface.",
+          "I modified and customized emails, forms, and landing pages using HTML, CSS, and HubSpot's CRM editor.",
           "I developed a REST API using Spring Boot to automate data transfer between HubSpot and an internal application."
         ]
       },
