@@ -9,22 +9,17 @@ import {
 import {
   CssLogo,
   CypressLogo,
-  ExpressLogo,
   GithubLogo,
   GitLogo,
   HtmlLogo,
   JavaLogo,
   JavaScriptLogo,
-  JestLogo,
   JunitLogo,
   JwtLogo,
   LaravelLogo,
-  MysqlLogo,
-  NodeLogo,
   PhpLogo,
   PostgreLogo,
   PostmanLogo,
-  PrismaLogo,
   RailwayLogo,
   ReactLogo,
   SpringBootLogo,
@@ -79,15 +74,6 @@ export const stack = [
         logo: LaravelLogo,
       },
       {
-        name: 'Node.js',
-        logo: NodeLogo,
-      },
-      {
-        name: 'Express.js',
-        logo: ExpressLogo,
-        colors: 'text-black dark:text-white',
-      },
-      {
         name: 'Java',
         logo: JavaLogo,
       },
@@ -102,17 +88,8 @@ export const stack = [
     title: 'stack.database',
     tech: [
       {
-        name: 'MySQL',
-        logo: MysqlLogo,
-      },
-      {
         name: 'PostgreSQL',
         logo: PostgreLogo,
-      },
-      {
-        name: 'Prisma',
-        logo: PrismaLogo,
-        colors: 'text-black dark:text-white',
       },
     ],
   },
@@ -139,10 +116,6 @@ export const stack = [
       {
         name: 'JWT',
         logo: JwtLogo,
-      },
-      {
-        name: 'Jest',
-        logo: JestLogo,
       },
       {
         name: 'Cypress',

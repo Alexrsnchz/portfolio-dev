@@ -1,6 +1,24 @@
 export const projects = [
   {
     thumbnail: '/images/toolsyde_thumbnail.webp',
+    title: 'projects.apiarchiveTitle',
+    description: 'projects.apiarchiveDescription',
+    stack: [
+      'TypeScript',
+      'React',
+      'Tailwind CSS',
+      'Node.js',
+      'Express',
+      'Prisma',
+      'PostgreSQL',
+      'Cypress',
+      'JUnit',
+    ],
+    source: 'https://github.com/Alexrsnchz/api-archive-web',
+    preview: 'https://toolsyde-web.vercel.app/',
+  },
+  {
+    thumbnail: '/images/toolsyde_thumbnail.webp',
     title: 'projects.toolsydeTitle',
     description: 'projects.toolsydeDescription',
     stack: [
