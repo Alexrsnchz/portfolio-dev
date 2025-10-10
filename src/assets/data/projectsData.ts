@@ -12,7 +12,6 @@ export const projects = [
       'Prisma',
       'PostgreSQL',
       'Cypress',
-      'JUnit',
     ],
     source: 'https://github.com/Alexrsnchz/api-archive-web',
     preview: 'https://api-archive-web.vercel.app/',

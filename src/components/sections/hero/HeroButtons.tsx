@@ -4,7 +4,7 @@ import i18next from 'i18next';
 
 export default function HeroButtons() {
   const { t } = useTranslation();
-  const currentLang = i18next.language.toUpperCase();
+  const currentLang = i18next.language.slice(0, 2).toUpperCase();
 
   return (
     <div className="flex items-center gap-5 mt-8">
