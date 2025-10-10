@@ -1,6 +1,6 @@
 export const projects = [
   {
-    thumbnail: '/images/toolsyde_thumbnail.webp',
+    thumbnail: '/images/apiarchive_thumbnail.webp',
     title: 'projects.apiarchiveTitle',
     description: 'projects.apiarchiveDescription',
     stack: [
@@ -15,7 +15,7 @@ export const projects = [
       'JUnit',
     ],
     source: 'https://github.com/Alexrsnchz/api-archive-web',
-    preview: 'https://toolsyde-web.vercel.app/',
+    preview: 'https://api-archive-web.vercel.app/',
   },
   {
     thumbnail: '/images/toolsyde_thumbnail.webp',

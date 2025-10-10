@@ -10,8 +10,7 @@
     "contactLink": "Contact",
     "contactAria": "Go to the contact section",
 
-    "themButtonAria": "Switch theme",
-
+    "themeButtonAria": "Switch theme",
     "langItemAria": "Change language to "
   },
 
@@ -38,9 +37,9 @@
         "position": "Full Stack Developer",
         "company": "Magical Analytics",
         "tasks": [
-          "I collaborated in the development of an application for team vacation management, using React for the user interface.",
-          "I modified and customized emails, forms, and landing pages using HTML, CSS, and HubSpot's CRM editor.",
-          "I developed a REST API using Spring Boot to automate data transfer between HubSpot and an internal application."
+          "I collaborated on the development of an application for managing team vacations, streamlining the process and reducing manual tasks by over 50%.",
+          "I developed a REST API using Spring Boot to handle data exchange between the vacation management application and the database.",
+          "I optimized emails, landing pages, and campaigns in Hubspot, resulting in an increase in lead conversion."
         ]
       },
       {
@@ -49,8 +48,8 @@
         "position": "Full Stack Developer",
         "company": "Ruano Informática",
         "tasks": [
-          "I developed the frontend and backend of an internal web application for managing courses, users, and training diplomas, as well as issuing them.",
-          "I implemented automated tests for HTTP requests, reducing the possibility of errors and improving code stability."
+          "I developed an internal application for managing courses, users, and the issuance of training certificates, reducing administrative time and minimizing manual processes.",
+          "I implemented automated tests for the API endpoints, reducing the likelihood of errors by 60% and improving code stability."
         ]
       }
     ]
@@ -58,10 +57,16 @@
 
   "projects": {
     "header": "Projects",
+
+    "apiarchiveTitle": "Archive of APIs",
+    "apiarchiveDescription": "Simple resource for discovering different kinds of APIs with search, category browsing, and filters.",
+
     "toolsydeTitle": "Toolbox for developers",
     "toolsydeDescription": "Toolbox style application based on microservices with a variety of utilities for developers.",
+
     "mobeliaTitle": "Furniture E-commerce",
     "mobeliaDescription": "Modern furniture e-commerce with responsive design, shopping cart, secure payments, and social authentication.",
+
     "sourceButtonAria": "Go to the project's code in GitHub",
     "sourceButtonText": "Source Code",
     "previewButtonAria": "Go to the project's preview",
