@@ -1,4 +1,4 @@
-import { ExternalLinkIcon, GitHubIcon } from '@icons/Icons';
+import { ExternalLinkIcon, GitHubIcon } from '@components/ui/icons/Icons';
 import type { ProjectProps } from '@customTypes/projects.types';
 import { useTranslation } from 'react-i18next';
 

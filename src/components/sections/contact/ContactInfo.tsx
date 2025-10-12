@@ -1,4 +1,4 @@
-import { ClockIcon, LocationIcon } from '@icons/Icons';
+import { ClockIcon, LocationIcon } from '@components/ui/icons/Icons';
 import { useTranslation } from 'react-i18next';
 
 export default function ContactInfo() {

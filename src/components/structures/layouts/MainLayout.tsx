@@ -1,6 +1,6 @@
 import type { LayoutProps } from '@customTypes/general.types';
 import Footer from '@components/navigation/footer/Footer';
-import Background from '@components/misc/Background';
+import Background from '@components/structures/backgrounds/Background';
 import Navbar from '@components/navigation/navbar/Navbar';
 
 export default function MainLayout({ children }: LayoutProps) {

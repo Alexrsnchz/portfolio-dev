@@ -1,4 +1,4 @@
-import { ChevronDownIcon, TranslatorIcon } from '@icons/Icons';
+import { ChevronDownIcon, TranslatorIcon } from '@components/ui/icons/Icons';
 import { useEffect, useRef, useState } from 'react';
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';

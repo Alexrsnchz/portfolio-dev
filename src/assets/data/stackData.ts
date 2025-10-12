@@ -5,7 +5,7 @@ import {
   ServerIcon,
   ShieldIcon,
   ToolIcon,
-} from '@icons/Icons';
+} from '@components/ui/icons/Icons';
 import {
   CssLogo,
   CypressLogo,
@@ -27,7 +27,7 @@ import {
   TailwindLogo,
   TypeScriptLogo,
   VercelLogo,
-} from '@logos/Logos';
+} from '@components/ui/logos/Logos';
 
 export const stack = [
   {

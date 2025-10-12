@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import SectionLayout from '@components/layouts/SectionLayout';
-import { CaseIcon } from '@icons/Icons';
+import SectionLayout from '@components/structures/layouts/SectionLayout';
+import { CaseIcon } from '@components/ui/icons/Icons';
 import type { ExperienceProps } from '@customTypes/experience.types';
 import ExperienceEntry from '@components/sections/experience/ExperienceEntry';
 

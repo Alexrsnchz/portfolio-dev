@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ArrowRightIcon, DocumentIcon } from '@icons/Icons';
+import { ArrowRightIcon, DocumentIcon } from '@components/ui/icons/Icons';
 import i18next from 'i18next';
 
 export default function HeroButtons() {

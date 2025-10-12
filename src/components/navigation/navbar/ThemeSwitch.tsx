@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MoonIcon, SunIcon } from '@icons/Icons';
+import { MoonIcon, SunIcon } from '@components/ui/icons/Icons';
 import { useTranslation } from 'react-i18next';
 
 export default function ThemeSwitch() {

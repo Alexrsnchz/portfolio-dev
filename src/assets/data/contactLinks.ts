@@ -1,4 +1,4 @@
-import { EnvelopeIcon, GitHubIcon, LinkedInIcon } from '@icons/Icons';
+import { EnvelopeIcon, GitHubIcon, LinkedInIcon } from '@components/ui/icons/Icons';
 
 export const links = [
   {

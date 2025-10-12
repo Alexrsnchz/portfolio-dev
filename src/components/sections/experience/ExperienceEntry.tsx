@@ -1,5 +1,5 @@
 import type { ExperienceProps } from '@customTypes/experience.types';
-import { BuildingIcon, CalendarIcon } from '@icons/Icons';
+import { BuildingIcon, CalendarIcon } from '@components/ui/icons/Icons';
 
 export default function ExperienceEntry({
   startDate,

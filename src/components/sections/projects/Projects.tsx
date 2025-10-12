@@ -1,5 +1,5 @@
-import SectionLayout from '@components/layouts/SectionLayout';
-import { LayoutIcon } from '@icons/Icons';
+import SectionLayout from '@components/structures/layouts/SectionLayout';
+import { LayoutIcon } from '@components/ui/icons/Icons';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from '@components/sections/projects/ProjectCard';
 import { projects } from '@data/projectsData';

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { links } from '@data/contactLinks';
-import { CopyIcon } from '@icons/Icons';
+import { CopyIcon } from '@components/ui/icons/Icons';
 import type { LinkProps } from '@customTypes/contact.types';
 import { useTranslation } from 'react-i18next';
 

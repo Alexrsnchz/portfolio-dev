@@ -1,5 +1,5 @@
-import SectionLayout from '@components/layouts/SectionLayout';
-import { LayerIcon } from '@icons/Icons';
+import SectionLayout from '@components/structures/layouts/SectionLayout';
+import { LayerIcon } from '@components/ui/icons/Icons';
 import { useTranslation } from 'react-i18next';
 import StackCard from '@components/sections/stack/StackCard';
 import { stack } from '@data/stackData';

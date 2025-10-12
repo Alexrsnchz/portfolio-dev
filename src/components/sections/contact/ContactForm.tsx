@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { PaperPlaneIcon } from '@icons/Icons';
+import { PaperPlaneIcon } from '@components/ui/icons/Icons';
 import * as React from 'react';
 import emailjs from '@emailjs/browser';
 

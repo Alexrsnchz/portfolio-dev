@@ -1,4 +1,4 @@
-import { EnvelopeIcon, GitHubIcon, LinkedInIcon } from '@icons/Icons';
+import { EnvelopeIcon, GitHubIcon, LinkedInIcon } from '@components/ui/icons/Icons';
 import { useTranslation } from 'react-i18next';
 
 export default function HeroLinks() {

@@ -1,4 +1,4 @@
-import { EsFlag, UsFlag } from '@flags/Flags';
+import { EsFlag, UsFlag } from '@components/ui/flags/Flags';
 
 export const list = [
   {
