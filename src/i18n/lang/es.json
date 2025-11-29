@@ -58,6 +58,9 @@
   "projects": {
     "header": "Proyectos",
 
+    "cliTitle": "CLI para Electron-vite",
+    "cliDescription": "Herramienta CLI profesional que genera proyectos de Electron-vite con el framework elegido por el usuario e integraciones opcionales.",
+
     "apiarchiveTitle": "Archivo de APIs",
     "apiarchiveDescription": "Recurso sencillo para descubrir diferentes tipos de APIs con búsqueda, exploración por categorías y filtros.",
 

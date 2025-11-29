@@ -1,5 +1,13 @@
 export const projects = [
   {
+    thumbnail: '/images/cli_thumbnail.webp',
+    title: 'projects.cliTitle',
+    description: 'projects.cliDescription',
+    stack: ['JavaScript', 'Node.js'],
+    source: 'https://github.com/Alexrsnchz/create-electron-starter',
+    preview: 'https://www.npmjs.com/package/create-electron-starter',
+  },
+  {
     thumbnail: '/images/apiarchive_thumbnail.webp',
     title: 'projects.apiarchiveTitle',
     description: 'projects.apiarchiveDescription',
