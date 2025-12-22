@@ -37,9 +37,9 @@
         "position": "Full Stack Developer",
         "company": "Magical Analytics",
         "tasks": [
-          "I collaborated on the development of an application for managing team vacations, streamlining the process and reducing manual tasks by over 50%.",
-          "I developed a REST API using Spring Boot to handle data exchange between the vacation management application and the database.",
-          "I optimized emails, landing pages, and campaigns in Hubspot, resulting in an increase in lead conversion."
+          "Collaborated in the development of a team vacation management application, optimizing the process and reducing manual tasks by more than 50%.",
+          "Developed a REST API using Spring Boot to manage communication between the vacation management application and the database.",
+          "Optimized emails, landing pages, and automated campaigns in Hubspot, resulting in an increase in lead conversion."
         ]
       },
       {
@@ -48,8 +48,8 @@
         "position": "Full Stack Developer",
         "company": "Ruano Informática",
         "tasks": [
-          "I developed an internal application for managing courses, users, and the issuance of training certificates, reducing administrative time and minimizing manual processes.",
-          "I implemented automated tests for the API endpoints, reducing the likelihood of errors by 60% and improving code stability."
+          "Developed an internal application for managing courses, users, and the issuance of training certificates using Laravel and React, reducing administrative time and manual work.",
+          "Implemented automated tests for the API using PHPUnit, reducing errors by 60% and improving code stability."
         ]
       }
     ]
