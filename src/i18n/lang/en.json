@@ -48,8 +48,7 @@
         "position": "Full Stack Developer",
         "company": "Ruano Informática",
         "tasks": [
-          "Developed an internal application for managing courses, users, and the issuance of training certificates using Laravel and React, reducing administrative time and manual work.",
-          "Implemented automated tests for the API using PHPUnit, reducing errors by 60% and improving code stability."
+          "Developed an internal application for managing courses, users, and the issuance of training certificates using PHP, Laravel and React, reducing administrative time and manual work."
         ]
       }
     ]

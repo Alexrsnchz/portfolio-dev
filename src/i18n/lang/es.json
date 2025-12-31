@@ -48,8 +48,7 @@
         "position": "Desarrollador Full Stack",
         "company": "Ruano Informática",
         "tasks": [
-          "Construí una aplicación para la gestión de cursos, usuarios y expedición de diplomas formativos utilizando Laravel y React, reduciendo tiempos de gestión y la necesidad de\nadministración manual.",
-          "Implementé pruebas automatizadas para la API con PHPUnit, disminuyendo los errores en un 60% y mejorando la estabilidad del código."
+          "Construí una aplicación para la gestión de cursos, usuarios y expedición de diplomas formativos utilizando PHP, Laravel y React, reduciendo tiempos de gestión y la necesidad de administración manual."
         ]
       }
     ]
