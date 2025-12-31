@@ -61,7 +61,7 @@
     "cliDescription": "Professional CLI tool that scaffolds Electron-vite projects with the user’s chosen framework and optional integrations.",
 
     "apiarchiveTitle": "Archive of APIs",
-    "apiarchiveDescription": "Simple resource for discovering different kinds of APIs with search, category browsing, and filters.",
+    "apiarchiveDescription": "Simple resource for discovering different kinds of APIs with search, category browsing, and pagination.",
 
     "toolsydeTitle": "Toolbox for developers",
     "toolsydeDescription": "Toolbox style application based on microservices with a variety of utilities for developers.",
